@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install",
+    "husky": "cmd",
+    "scriptname": "cmd"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,5 +27,8 @@
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "vite": "^3.1.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
