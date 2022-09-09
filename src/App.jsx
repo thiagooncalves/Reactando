@@ -1,14 +1,16 @@
 import React from "react";
 import { GlobalStyle } from "../src/Componentes/GlobalStyle";
 import Header from "../src/Componentes/Header/Header";
-// import BtnHeader from "../src/Componentes/Button/Button";
-// import DivHeader from "../src/App.style";
+import Main from "./Componentes/MainContent/BackgroundImage";
+import ImgRedeSocial from "./Componentes/Footer/ImagensRedeSocial";
 
 function App() {
   return (
     <>
       <GlobalStyle />
       <Header />
+      <Main />
+      <ImgRedeSocial />
     </>
   );
 }
